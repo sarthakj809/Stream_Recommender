@@ -173,13 +173,9 @@ See `requirements.txt` for full dependency list. Key packages:
 - `shap`: Model explainability
 - `lime`: Local explanations
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Sarthak Jain** - [sarthakj809](https://github.com/sarthakj809)
 
 ## 🙏 Acknowledgments
 
@@ -198,12 +194,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🐛 Known Issues
 
-- Large model files require Git LFS for version control
 - SHAP explanations may take time to load in the web interface
+- Need more training on bigger datasets
 
 ## 📞 Support
 
-If you have any questions or run into issues, please [open an issue](https://github.com/yourusername/stream-recommender/issues) on GitHub.
+If you have any questions or run into issues, please [open an issue](https://github.com/sarthakj809/stream-recommender/issues) on GitHub.
 
 ---
 
