@@ -1,0 +1,22 @@
+import os
+import glob
+import pandas as pd
+
+# Step 1: Set your dataset path
+dataset_path = "C:\Users\sarth\OneDrive\Desktop\DL summer intern project - Copy\Train"  # Replace with your actual path
+
+# Step 2: Get all CSV files
+all_files = glob.glob(os.path.join(dataset_path, "*.csv"))
+
+# Safety check: make sure files were found
+if not all_files:
+    raise FileNotFoundError("No CSV files found in the specified directory.")
+
+# Step 3: Load and concatenate all files
+df_list = []
+for filename in all_files:
+    temp_df = pd.read_csv(filename)
+    df_list.append(temp_df)
+df = pd.concat(df_list, axis=0, ignore_index=True)  # ignore_index is helpful for a clean index
+
+print(f"Successfully loaded and concatenated {len(all_files)} files. DataFrame shape: {df.shape}")
