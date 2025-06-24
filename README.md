@@ -33,8 +33,8 @@ This project uses a deep neural network (ANN) to analyze student academic scores
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/stream-recommender.git
-   cd stream-recommender
+   git clone https://github.com/sarthakj809/Stream_Recommender.git
+   cd Stream-Recommender
    ```
 
 2. **Create virtual environment**
@@ -194,12 +194,12 @@ See `requirements.txt` for full dependency list. Key packages:
 
 ## 🐛 Known Issues
 
-- SHAP explanations may take time to load in the web interface
+- SHAP/LIME explanations may take time to load in the web interface
 - Need more training on bigger datasets
 
 ## 📞 Support
 
-If you have any questions or run into issues, please [open an issue](https://github.com/sarthakj809/stream-recommender/issues) on GitHub.
+If you have any questions or run into issues, please [open an issue](https://github.com/sarthakj809/Stream_Recommender/issues) on GitHub.
 
 ---
 
